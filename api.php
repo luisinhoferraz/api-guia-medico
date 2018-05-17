@@ -5,7 +5,7 @@
     </head>
     <body>
         <?php
-            $conn = oci_connect('tasy', 'aloisk', '10.10.0.24:1521/tasy');
+            $conn = oci_connect('username', 'password', '10.10.0.24:1521/tasy');
 
             // a tabela de planos no banco de dados contém o código antigo e o código novo de cada plano registrado na ANS; porém, cada tupla possui apenas um dos dois códigos
             // portanto a consulta PL/SQL executa o UNION, para considerar os dois códigos como uma coluna só e ao mesmo tempo ignorar as colunas vazias
