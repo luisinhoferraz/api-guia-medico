@@ -13,31 +13,33 @@
 
         <br/>
         <a class="botao" href="especialidades.html">Voltar</a>
-        <button id="print" class="botao" onclick="printContent('impressao');">Imprimir tudo</button>
+        <button id="print" class="botao" onclick="narrowList('lista');printContent('impressao');returnList('impressao');">Imprimir tudo</button>
 
         <p class="descricao">Confira a lista de profissionais da especialidade pesquisada:</p>
 
         <div id="impressao">
         
             <div class="lista">
-                <div class="medico">
+                <div class="medico" id="abigail">
                     <p>Abigail Camargo</p>
+                    <p>Ginecologista</p>
                     <p>CRM SP 59633</p>
                     <p>Rua Sete de Setembro, 833</p>
                     <p>Centro, Americana-SP</p>
                     <p>CEP:13465-320</p>
                     <p>(19) 3406-8859</p>
-                    <button type="button" onclick="alert('Imprimir médico (a)!');" class="opcao">Imprimir</button>
+                    <button type="button" onclick="printContent('abigail');" class="opcao">Imprimir</button>
                 </div>
 
-                <div class="medico">
+                <div class="medico" id="anaflora">
                     <p>Ana Flora de Castro Rodrigues</p>
+                    <p>Ginecologista</p>
                     <p>CRM SP 55632</p>
                     <p>Rua Jatobá,492</p>
                     <p>Vila Cláudia, Limeira-SP</p>
                     <p>CEP:13480-658</p>
                     <p>(19) 3406-4236</p>
-                    <button type="button" onclick="alert('Imprimir médico (a)!');" class="opcao">Imprimir</button>
+                    <button type="button" onclick="printContent('anaflora');" class="opcao">Imprimir</button>
                 </div>
             </div>
         </div>
