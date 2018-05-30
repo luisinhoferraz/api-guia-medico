@@ -4,19 +4,26 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="style.css">
         <title>Especialidades</title>
+
+        <script src="jquery-3.3.1.min.js"></script>
+        <script src="print.js"></script>
     </head>
     <body>
+        
         <div class="cabecalho"><img src="images/logo-frei-galvao.jpg" alt="Logo do Frei Galvão" height="100" width="300" class="logo"></div>
 
         <br/>
         <a class="botao" href="index.html">Voltar</a>
 
         <p class="descricao">Selecione uma especialidade para consultar os (as) médicos (as).</p>
+            
+        <div id="impressao">
+            <p><a class="botao" href="medicos.html">Urologista</a></p>
+            <p><a class="botao" href="medicos.html">Ginecologista</a></p>
+            <p><a class="botao" href="medicos.html">Otorrinolaringologista</a></p>
+        </div>
 
-        
-        <p><a class="botao" href="medicos.html">Urologista</a></p>
-        <p><a class="botao" href="medicos.html">Ginecologista</a></p>
-        <p><a class="botao" href="medicos.html">Otorrinolaringologista</a></p>
+        <button id="print" class="botao" onclick="printContent('impressao');">Imprimir</button>
         
     </body>
 </html>
