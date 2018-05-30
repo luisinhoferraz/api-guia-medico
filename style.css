@@ -1,0 +1,59 @@
+.botao {
+    width: 300px;
+    height: 80px;
+    background-color: rgb(245, 134, 52);
+    color: rgb(151, 43, 43);
+    font-family: Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+.cabecalho {
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 300px;
+    height: 100px;
+}
+
+.descricao {
+    text-align: center;
+    margin: 30px auto;
+    width: 300px;
+}
+
+.lista {
+    margin: auto;
+    width: 500px;
+}
+
+.medico {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    float: left;
+}
+
+.medico > p {
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.opcao {
+    width: 200px;
+    height: 30px;
+    background-color: rgb(245, 134, 52);
+    color: rgb(151, 43, 43);
+    font-family: Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    border: none;
+}
